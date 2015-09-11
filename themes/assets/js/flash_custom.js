@@ -123,9 +123,9 @@ $(function(){
 																	}	
 													}
 										});			
-										if(document.getElementById("user-high-score").innerHTML=="" || document.getElementById("user-high-score").innerHTML==" " || document.getElementById("user-high-score").innerHTML==null){
+										/*if(document.getElementById("user-high-score").innerHTML=="" || document.getElementById("user-high-score").innerHTML==" " || document.getElementById("user-high-score").innerHTML==null){
 												document.getElementById("user-high-score").innerHTML="Not available";
-										}
+										}*/
 										if(document.getElementById("user-rank").innerHTML=="" || document.getElementById("user-rank").innerHTML==" " || document.getElementById("user-rank").innerHTML==null){
 												document.getElementById("user-rank").innerHTML="Not available";
 										}
@@ -141,7 +141,7 @@ $(function(){
 									url: "themes/assets/GameLoaders/getResult.php",
 									data: "getuserscores=eurt",
 									success: function(data){
-										$("#user-high-score").html(data);
+										//$("#user-high-score").html(data);
 									}
 					});
 

@@ -2,4 +2,4 @@
 $dbname = "productization";
 $dbuser = "productization";
 $dbpass = "productization@#01";
-$dbtable = "new_shellpage";
+$dbtable = "quiz_engine_demo";

@@ -7,7 +7,7 @@
 		$xml=simplexml_load_file("../config.xml") or die("Error: Cannot load configuration file");				
 		$activity_name=$xml->Configuration->Activity;
 		$results=getResult(-1);
-		//pr($results);exit();
+		
 		require_once('../lib/smtemplate.php');
 		$tpl = new SMTemplate();
 		$data = array(

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2015-07-27 13:36:46
+<?php /* Smarty version 3.1.24, created on 2015-09-11 15:28:58
          compiled from "/var/www/Build/DEV/ShellRedefined/thfl-admin/view/reports.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:149243024755b5e69607e975_80731038%%*/
+/*%%SmartyHeaderCode:174571899755f2a5e2c59d06_61058142%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3e7fc6cb8884d4368afec195bcbc2b8cb8109fcf' => 
     array (
       0 => '/var/www/Build/DEV/ShellRedefined/thfl-admin/view/reports.tpl',
-      1 => 1437984403,
+      1 => 1441965537,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '149243024755b5e69607e975_80731038',
+  'nocache_hash' => '174571899755f2a5e2c59d06_61058142',
   'variables' => 
   array (
     'results' => 0,
@@ -21,13 +21,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_55b5e69610b395_49270189',
+  'unifunc' => 'content_55f2a5e2d55c39_28275474',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55b5e69610b395_49270189')) {
-function content_55b5e69610b395_49270189 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55f2a5e2d55c39_28275474')) {
+function content_55f2a5e2d55c39_28275474 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '149243024755b5e69607e975_80731038';
+$_smarty_tpl->properties['nocache_hash'] = '174571899755f2a5e2c59d06_61058142';
 ?>
 <div id="reportsConfigurationInner"> 
 <!--	<h4>Manage Activities &nbsp; <span class="glyphicon glyphicon glyphicon-edit" aria-hidden="true"></span></h4>
@@ -48,14 +48,15 @@ $_smarty_tpl->properties['nocache_hash'] = '149243024755b5e69607e975_80731038';
 					  <th>Email</th>
 					  <th>Location</th>
 					  <th>Quiz Name</th>
-					  <th>Max Score</th>
+					 <!-- <th>Max Score</th>
 					  <th>Min Score</th>
 					  <th>Games Played</th>
-					  <th>Total Game Time</th>
+					  <th>Total Game Time</th>-->
 					  <th>Total Score</th>
 					</tr>
 				</thead>	
 				<tbody>
+
 				<?php if (isset($_smarty_tpl->tpl_vars['smarty']->value['section']['reports'])) unset($_smarty_tpl->tpl_vars['smarty']->value['section']['reports']);
 $_smarty_tpl->tpl_vars['smarty']->value['section']['reports']['name'] = 'reports';
 $_smarty_tpl->tpl_vars['smarty']->value['section']['reports']['loop'] = is_array($_loop=$_smarty_tpl->tpl_vars['results']->value) ? count($_loop) : max(0, (int) $_loop); unset($_loop);
@@ -91,31 +92,18 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['reports']['last']       = ($
 </td>
 					<td><?php echo $_smarty_tpl->tpl_vars['activity_name']->value;?>
 </td>
-					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['maxScr'];?>
+					<!--<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['maxScr'] == '' ? 0 : $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['maxScr'];?>
 </td>
 					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['minScr'] == '' ? 0 : $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['minScr'];?>
 </td>
-					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalRows'];?>
- Times</td>
-					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalGameTime'];?>
-</td>
-					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalScr'];?>
+					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalRows'] == '' ? 1 : $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalRows'];?>
+  Times</td>
+					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalGameTime'] == '' ? 1 : $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalGameTime'];?>
+</td>-->
+					<td><?php echo $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalScr'] == '' ? 0 : $_smarty_tpl->tpl_vars['results']->value[$_smarty_tpl->getVariable('smarty')->value['section']['reports']['index']]['totalScr'];?>
 </td>
 				</tr>
 				<?php endfor; endif; ?>
-				<!--<?php echo '<?php ';?>$count=0;foreach($results as $item){ $count++;<?php echo '?>';?>
-					<tr>
-						<th scope="row"><?php echo '<?=';?> $count <?php echo '?>';?></th>
-						<td><?php echo '<?=';?> $item['name'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> $item['email'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> $item['location'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> ($item['quizName']=="")?"Word It":$item['quizName'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> $item['maxScr'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> ($item['minScr']=="")?0:$item['minScr'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> $item['totalGameTime'] <?php echo '?>';?></td>
-						<td><?php echo '<?=';?> $item['totalScr'] <?php echo '?>';?></td>
-					</tr>
-				<?php echo '<?php ';?>} <?php echo '?>';?>-->
 				</tbody>
 			</table>
 		</div>

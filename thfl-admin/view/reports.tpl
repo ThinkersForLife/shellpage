@@ -17,10 +17,10 @@
 					  <th>Email</th>
 					  <th>Location</th>
 					  <th>Quiz Name</th>
-					  <th>Max Score</th>
+					 <!-- <th>Max Score</th>
 					  <th>Min Score</th>
 					  <th>Games Played</th>
-					  <th>Total Game Time</th>
+					  <th>Total Game Time</th>-->
 					  <th>Total Score</th>
 					</tr>
 				</thead>	
@@ -33,13 +33,13 @@
 					<td>{$results[$smarty.section.reports.index].email}</td>
 					<td>{$results[$smarty.section.reports.index].location}</td>
 					<td>{$activity_name}</td>
-					<td>{$results[$smarty.section.reports.index].maxScr}</td>
+					<!--<td>{($results[$smarty.section.reports.index].maxScr=='')?0:$results[$smarty.section.reports.index].maxScr}</td>
 					<td>{($results[$smarty.section.reports.index].minScr=='')?0:$results[$smarty.section.reports.index].minScr}</td>
-					<td>{$results[$smarty.section.reports.index].totalRows} Times</td>
-					<td>{$results[$smarty.section.reports.index].totalGameTime}</td>
-					<td>{$results[$smarty.section.reports.index].totalScr}</td>
+					<td>{($results[$smarty.section.reports.index].totalRows=='')?1:$results[$smarty.section.reports.index].totalRows}  Times</td>
+					<td>{($results[$smarty.section.reports.index].totalGameTime=='')?1:$results[$smarty.section.reports.index].totalGameTime}</td>-->
+					<td>{($results[$smarty.section.reports.index].totalScr=='')?0:$results[$smarty.section.reports.index].totalScr}</td>
 				</tr>
-
+				{/section}
 				</tbody>
 			</table>
 		</div>

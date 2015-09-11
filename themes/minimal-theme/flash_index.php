@@ -205,9 +205,9 @@ $demo_games_configuration['footer_title']=$xml->Configuration->FooterTitle;
 			<div class="col-lg-8 col-md-8 col-xs-12 col-xs-offset-0 col-lg-offset-2 text-center">
 
 				<div id="game-score-bar" class="row"> 			
-					<div class="col-md-4 col-xs-4 col-sm-4" id="user-welcome">Welcome <span id="user-name" ></span> !&nbsp;&nbsp;<a style="display:none;" href="?logout=true" id="logout"  title="Logout"><span class="glyphicon glyphicon-log-out"></span></a></div>
-						<div class="col-md-4 col-xs-4 col-sm-4" id="user-score-div">Score : <span id="user-high-score"></span></div>
-						<div class="col-md-4 col-xs-4 col-sm-4" id="user-rank-div">Rank: <span id="user-rank"></span></div>
+					<div class="col-md-6 col-xs-6 col-sm-6" id="user-welcome">Welcome <span id="user-name" ></span> !&nbsp;&nbsp;<a style="display:none;" href="?logout=true" id="logout"  title="Logout"><span class="glyphicon glyphicon-log-out"></span></a></div>
+						<!--<div class="col-md-4 col-xs-4 col-sm-4" id="user-score-div">Score : <span id="user-high-score"></span></div>-->
+						<div class="col-md-6 col-xs-6 col-sm-6" id="user-rank-div">Rank: <span id="user-rank"></span></div>
 						<!--<div class="col-md-3" ><span id="stopwatch" >00:00:00</span></div>-->
 					</div>
 				</div>
