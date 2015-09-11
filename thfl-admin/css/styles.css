@@ -1,0 +1,29 @@
+#tblSiteConfiguration {
+	border-spacing: 10px;
+    border-collapse: separate;
+}
+#tblSiteConfiguration textarea{
+	width: 500px; height: 150px
+}
+
+#tblDemoGamesConfiguration {
+	border-spacing: 10px;
+    border-collapse: separate;
+}
+#tblDemoGamesConfiguration textarea{
+	width: 500px; height: 150px
+}
+
+.required-asterisk{
+	color:red;
+}
+
+.pictures-thumbnails{
+		height:100px;
+		width:100px;
+}
+
+
+.theme-color-display-div{
+	height:20px;width:30px;border-radius:5px;
+}

@@ -1,0 +1,276 @@
+$(function(){
+
+
+		// Common functions
+		function pad(number, length) {
+				var str = '' + number;
+				while (str.length < length) {str = '0' + str;}
+				return str;
+		}
+		function formatTime(time) {
+				time = time / 10;
+				var min = parseInt(time / 6000),
+				    sec = parseInt(time / 100) - (min * 60),
+				    hundredths = pad(time - (sec * 100) - (min * 6000), 2);
+				return (min > 0 ? pad(min, 2) : "00") + ":" + pad(sec, 2) + ":" + hundredths;
+		}
+
+
+		var Example1 = new (function() {
+
+				// Stopwatch element on the page
+				var $stopwatch;
+				
+				// Timer speed in milliseconds
+				var incrementTime = 70;
+
+				// Current timer position in milliseconds
+				var currentTime = 0;
+
+				
+				
+				// Start the timer
+				$(function() {
+				    $stopwatch = $('#stopwatch');
+				    Example1.Timer = $.timer(updateTimer, incrementTime, true);  
+				});
+
+				// Output time and increment
+				function updateTimer() {
+				    var timeString = formatTime(currentTime);
+				    $stopwatch.html(timeString);
+				    currentTime += incrementTime;
+				}
+
+				// Reset timer
+				this.resetStopwatch = function() {
+				    currentTime = 0;
+				    Example1.Timer.stop().once();
+//						$.timer.stop();
+				};
+
+				this.resetCountdown = function() {
+
+				    // Get time from form
+				    var newTime = parseInt($form.find('input[type=text]').val()) * 1000;
+				    if (newTime > 0) {currentTime = newTime;}
+
+				    // Stop and reset timer
+				    Example1.Timer.stop().once();
+
+				};
+
+		});
+
+
+	function validateEmail(email,domain) {
+
+	    var re = /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/;
+
+	    if (re.test(email)) {
+
+						if (email.indexOf('@'+domain, email.length - '@'+domain.length) !== -1) {
+								return 1;
+						} else {
+								alert('Email must be a '+domain+' e-mail address (your.name@'+domain+').');
+								return 0;
+						}
+
+	    } else {
+
+						alert('Not a valid e-mail address.');
+						return 0;
+
+	    }
+
+	}
+
+	function updatePostOrder() { 		
+			var arr = [];
+		  $("#sortable2 li").each(function(){
+		    arr.push($(this).attr('id'));
+		  });
+		  $(this).removeClass( "droptrue" );
+		  $('#postOrder').val(arr.join(''));
+		  $('#disWord').text(arr.join(''));
+	}
+	function fixedScripts(){
+
+
+/*$(".digits").remove();
+				$("#holder").append("<div class=\'digits\'></div>");	
+				$(".digits").countdown({
+          image: "themes/assets/img/digits.png",
+          format: "mm:ss",					
+					continuous: false,
+					timerEnd: function() { alert("Time up! Still you can try to solve it!"); },
+          startTime: "00:60"
+        });*/
+
+
+		$.ajax({
+			type: "POST",
+			url: "themes/assets/GameLoaders/getResult.php",
+			data: "stluserteg=eurt",
+			success: function(data){
+//				alert(data);
+				var htmlData='<div class="row centered"><p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p><div class="col-lg-6 col-lg-offset-3 centered"><table class="scoresDiv"><tr><th>Name</th><th>Score</th></tr>';
+				var decodedArr=JSON.parse(data);
+				var email=$("#subdomain").val();
+				$.each(JSON.parse(data), function(idx, obj) {
+
+					if(obj.rawScr==null)
+						obj.rawScr=0;
+					//alert(obj);
+					if(obj.email==email){
+						htmlData+='<tr><td><span class="userResult" id="userResult">'+obj.name+'</span></td><td><span class="userResult">'+obj.rawScr+'</span></td></tr>';			
+					}else{
+						htmlData+='<tr><td><span class="scores">'+obj.name+'</span></td><td><span class="scores">'+obj.rawScr+'</span></td></tr>';			
+					}
+				});
+			
+				htmlData+='<br><br></div></div><!-- col-lg-8 --></div><!-- row -->';
+				$("#resultBoard").html(htmlData);
+			}
+		});
+
+		$("#loginDiv").css("display","inline");
+
+		$("#processingDiv").hide();
+
+		var gameDivClone=$("#maincolumn").clone();
+
+		$("#loginForm").submit(function(e){
+
+					fixedScripts();
+
+					var visitor_name=$("#visitor_name").val();
+					var visitor_email=$("#visitor_email").val();
+					var visitor_location=$("#visitor_location").val();
+					var user_answer=$("#postOrder").val();
+
+					if(visitor_name==null || visitor_name==""){
+						alert("Please enter your name....");
+						return false;
+					}
+
+					var email_domain=$("#email_domain").val();
+					var isEmailValid;
+					isEmailValid=validateEmail(visitor_email,email_domain);
+
+					if(isEmailValid==0)
+						return false;
+
+					$("#loginForm").fadeOut(500);
+
+					$("#contentwrapper").fadeIn(1000);		
+
+					$.ajax({
+						type: "POST",
+						url: "themes/assets/inc/login.php",
+						data: "action=login&submit=Login&visitor_name="+visitor_name+"&visitor_email="+visitor_email+"&visitor_location="+visitor_location+"&Letters="+user_answer,
+
+						success: function(data){			
+
+							document.getElementById("loginMessage").style.display="none";
+
+//							document.getElementById("game-timer").style.display="inline";
+
+							$("#subdomain").setVal(visitor_email);
+
+
+						}
+				
+					});
+					$("#contentwrapper").load("themes/assets/GameLoaders/quad_game.php",function(){
+
+								fixedScripts();
+
+					});
+					e.preventDefault();
+		});
+			
+		$(".playAgain").click(function(){
+
+
+
+					$("#loginForm").hide();
+					$("#contentwrapper").fadeOut(5000);
+
+					setTimeout(function(){
+
+						$("#contentwrapper").load("themes/assets/GameLoaders/quad_game.php",function(){
+
+									fixedScripts();
+
+
+						}).fadeIn(500);
+
+					},500);
+
+					e.preventDefault();
+
+
+		});
+
+		$("ul.droptrue").sortable({
+			connectWith: 'ul',
+			opacity: 0.6,
+			placeholder: "ui-state-highlight",
+			update : updatePostOrder
+		});
+
+		$("#sortable1").delegate("li", "dblclick", function() {
+
+	    		$("#sortable2").append(this);
+	    	  	updatePostOrder();
+
+		});
+
+		$("#sortable2").delegate("li", "dblclick", function() {
+
+			$("#sortable1").append(this);
+			updatePostOrder();
+
+		});
+
+		$("#sortable1, #sortable2").disableSelection();
+
+		$("#sortable1").css('minHeight',$("#sortable1").height()+"px");
+
+		updatePostOrder();
+
+		
+		$("#quadnationForm").submit(function(e){
+
+//					$(".digits").remove();
+
+					document.getElementById("stopwatch").style.display="none";
+
+					Example1.resetStopwatch();
+
+					var visitor_name=$("#visitor_name").val();
+					var visitor_email=$("#visitor_email").val();
+					var visitor_location=$("#visitor_location").val();
+					var user_answer=$("#postOrder").val();
+					$.ajax({
+						type: "POST",
+						url: "themes/assets/inc/submit.php",
+		//				data: "test=true&submit=Send Answer&visitor_name="+visitor_name+"&visitor_email="+visitor_email+"&visitor_location="+visitor_location+"&Letters="+user_answer,
+						data: "test=true&submit=Send Answer&Letters="+user_answer,
+						success: function(data){
+					
+							//$("#result").html('<div id="f">			<div class="container">				<div class="row centered">					<h3>Results</h3>					<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>					<div class="col-lg-6 col-lg-offset-3">						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">							<!-- Wrapper for slides -->							<div class="carousel-inner">								<div class="item active centered">									'+data+'							</div>								<div class="item centered">									<img class="img-responsive" src="themes/assets/img/c2.png" alt="">							</div>						<div class="item centered">									<img class="img-responsive" src="themes/assets/img/c3.png" alt="">							</div>							</div>						<br>							<br>							<ol class="carousel-indicators">						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>							</ol>					</div>				</div><!-- col-lg-8 -->				</div><!-- row -->			</div><!-- container -->		</div>	<!-- f -->');
+
+							$("#contentwrapper").hide();
+							$("#processingDiv").fadeIn(500);
+					
+							setTimeout(function(){
+			
+												//$("#loginForm").show();
+						
+												$("#contentwrapper").fadeIn(500).html(data);	
+						
+												$(".playAgain").bind("click",function(){
+
+															document.getElementById("stopwatch").styl

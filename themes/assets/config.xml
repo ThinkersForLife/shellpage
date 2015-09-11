@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ShellConfiguration xmlns="http://commons.apache.org/employee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://commons.apache.org/employee http://commons.apache.org/sample.xsd">
+  <Configuration>
+    <NameofActivity>Flash Games</NameofActivity>
+    <DatabaseName>productization</DatabaseName>
+    <DatabaseUser>productization</DatabaseUser>
+    <DatabasePassword>productization@#01</DatabasePassword>
+    <DatabaseTable>built_shuffle</DatabaseTable>
+    <Domain>thefullerlife.com</Domain>
+    <Location>Bangalore|Chennai|Hyderabad|Kolkata|Mumbai|NCR|Pune|Cochin|Ahmedabad</Location>
+    <HomePageTitle>Demo Games Login</HomePageTitle>
+    <HomeBackgroundImage>jumbotron_clouds.jpg</HomeBackgroundImage>
+    <HomePageDescription>&lt;p class="fr-tag"&gt;Give it a try.&lt;/p&gt;</HomePageDescription>
+    <GamesPageTitle>Word 4 Me </GamesPageTitle>
+    <GamesPageDescription>&lt;p class="fr-tag"&gt;A full time theme crafter based in Madrid, Spain. I love designing beautiful, clean and user-friendly interfaces for websites. My passion is turning good ideas and products into eye-catching sites. Sometimes I blog about design and web trends. Also I sh&lt;/p&gt;</GamesPageDescription>
+    <GamesPageButtonText>I HAVE A FREELANCE JOB</GamesPageButtonText>
+    <GamesPageButtonLink>I HAVE A FREELANCE JOB</GamesPageButtonLink>
+    <ResultPageTitle>SOME OTHER GAMES</ResultPageTitle>
+    <ResultPageDescription>&lt;p class="fr-tag"&gt;&lt;br&gt;&lt;/p&gt;</ResultPageDescription>
+    <ResultPageButtonText/>
+    <ResultPageButtonLink/>
+    <ContactPageTitle>CONTACT US</ContactPageTitle>
+    <AddressLine1>#20/1, 6th Cross,</AddressLine1>
+    <AddressLine2>Anjeneya Temple Street,</AddressLine2>
+    <CityState>Austin Town, Bangalore - 560047</CityState>
+    <Phone>+91 80 6559 8001/2</Phone>
+    <Email>reachus@thefullerlife.com</Email>
+    <Activity>login</Activity>
+    <ThemeName>freelancer</ThemeName>
+  </Configuration>
+</ShellConfiguration>

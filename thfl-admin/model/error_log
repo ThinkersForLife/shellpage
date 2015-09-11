@@ -1,0 +1,269 @@
+[10-Mar-2015 23:12:40 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 204
+[10-Mar-2015 23:12:40 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 205
+[10-Mar-2015 23:12:40 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 206
+[11-Mar-2015 00:08:47 America/Denver] connection failed: SQLSTATE[28000] [1045] Access denied for user 'thinker6_npd2'@'localhost' (using password: YES)
+[11-Mar-2015 00:08:47 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/thinker6/public_html/ShellPage/thfl-admin/model/database_class.php on line 48
+[11-Mar-2015 00:08:53 America/Denver] connection failed: SQLSTATE[28000] [1045] Access denied for user 'thinker6_npd2'@'localhost' (using password: YES)
+[11-Mar-2015 00:08:53 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/thinker6/public_html/ShellPage/thfl-admin/model/database_class.php on line 48
+[11-Mar-2015 00:11:08 America/Denver] connection failed: SQLSTATE[28000] [1045] Access denied for user 'thinker6_npd2'@'localhost' (using password: YES)
+[11-Mar-2015 00:11:08 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/thinker6/public_html/ShellPage/thfl-admin/model/database_class.php on line 48
+[11-Mar-2015 00:57:57 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[11-Mar-2015 00:59:18 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 204
+[11-Mar-2015 00:59:18 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 205
+[11-Mar-2015 00:59:18 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 206
+[12-Mar-2015 00:08:02 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[12-Mar-2015 00:36:04 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[12-Mar-2015 00:41:58 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[12-Mar-2015 00:49:53 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[13-Mar-2015 01:00:21 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 206
+[13-Mar-2015 01:00:21 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 207
+[13-Mar-2015 01:00:21 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 208
+[13-Mar-2015 01:30:07 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[13-Mar-2015 03:10:48 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellOptimization/thfl-admin/config.php on line 4
+[13-Mar-2015 04:23:49 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 196
+[13-Mar-2015 04:23:49 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 197
+[13-Mar-2015 04:23:49 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 198
+[13-Mar-2015 04:23:58 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 196
+[13-Mar-2015 04:23:58 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 197
+[13-Mar-2015 04:23:58 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 198
+[26-Mar-2015 20:05:52 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellOptimization/thfl-admin/config.php on line 4
+[26-Mar-2015 23:21:49 America/Denver] PHP Fatal error:  Cannot break/continue 1 level in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 261
+[26-Mar-2015 23:40:12 America/Denver] PHP Fatal error:  Cannot break/continue 1 level in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 241
+[26-Mar-2015 23:40:55 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 176
+[26-Mar-2015 23:40:55 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 177
+[26-Mar-2015 23:40:55 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 178
+[26-Mar-2015 23:41:00 America/Denver] PHP Fatal error:  Cannot break/continue 1 level in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 241
+[26-Mar-2015 23:41:30 America/Denver] PHP Fatal error:  Cannot break/continue 1 level in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 241
+[26-Mar-2015 23:41:56 America/Denver] PHP Fatal error:  Cannot break/continue 1 level in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 241
+[26-Mar-2015 23:43:18 America/Denver] PHP Fatal error:  Call to private Database::__construct() from invalid context in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 453
+[26-Mar-2015 23:46:51 America/Denver] PHP Fatal error:  Call to private Database::__construct() from invalid context in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 453
+[26-Mar-2015 23:47:02 America/Denver] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;/home3/thinker6/public_html/ShellOptimization/thfl-admin/consfig.xml&quot; in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 197
+[26-Mar-2015 23:47:40 America/Denver] PHP Fatal error:  Call to private Database::__construct() from invalid context in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 453
+[26-Mar-2015 23:48:14 America/Denver] PHP Fatal error:  Call to private Database::__construct() from invalid context in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 453
+[27-Mar-2015 00:29:08 America/Denver] PHP Fatal error:  Call to private Database::__construct() from invalid context in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 452
+[27-Mar-2015 00:36:56 America/Denver] PHP Fatal error:  Call to private Database::__construct() from invalid context in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 453
+[27-Mar-2015 00:46:33 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 176
+[27-Mar-2015 00:46:33 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 177
+[27-Mar-2015 00:46:33 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 178
+[27-Mar-2015 00:46:56 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 176
+[27-Mar-2015 00:46:56 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 177
+[27-Mar-2015 00:46:56 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 178
+[27-Mar-2015 00:47:22 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[27-Mar-2015 00:47:28 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[27-Mar-2015 03:47:09 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 176
+[27-Mar-2015 03:47:09 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 177
+[27-Mar-2015 03:47:09 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 178
+[27-Mar-2015 03:47:34 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 176
+[27-Mar-2015 03:47:34 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 177
+[27-Mar-2015 03:47:34 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellOptimization/thfl-admin/model/functions.php on line 178
+[27-Mar-2015 03:51:41 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[27-Mar-2015 03:51:41 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[27-Mar-2015 03:55:22 America/Denver] PHP Notice:  Undefined index: activity-file in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 345
+[27-Mar-2015 03:55:22 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 176
+[27-Mar-2015 03:55:22 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 177
+[27-Mar-2015 03:55:22 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 178
+[30-Mar-2015 23:48:05 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[30-Mar-2015 23:48:05 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 03:57:50 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 03:57:50 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 04:00:26 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 176
+[02-Apr-2015 04:00:26 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 177
+[02-Apr-2015 04:00:26 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 178
+[02-Apr-2015 04:00:58 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 176
+[02-Apr-2015 04:00:58 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 177
+[02-Apr-2015 04:00:58 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 178
+[02-Apr-2015 04:03:33 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 176
+[02-Apr-2015 04:03:33 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 177
+[02-Apr-2015 04:03:33 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 178
+[02-Apr-2015 04:03:58 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 176
+[02-Apr-2015 04:03:58 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 177
+[02-Apr-2015 04:03:58 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 178
+[02-Apr-2015 04:07:03 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 176
+[02-Apr-2015 04:07:03 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 177
+[02-Apr-2015 04:07:03 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 178
+[02-Apr-2015 04:46:01 America/Denver] PHP Warning:  zip_open(): Empty string as source in /home3/thinker6/public_html/ShellPage/thfl-admin/model/functions.php on line 118
+[02-Apr-2015 04:53:52 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 04:53:52 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 05:05:30 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 05:05:30 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 05:07:42 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 05:07:42 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 05:08:57 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 05:08:57 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 05:13:01 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 05:13:01 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[02-Apr-2015 05:15:40 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[02-Apr-2015 05:15:40 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 21:57:49 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 21:57:49 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 21:58:36 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 21:58:36 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 22:17:26 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 22:17:26 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 22:19:37 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 22:19:37 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 22:25:18 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 22:25:18 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 23:37:47 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 23:37:47 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 23:44:59 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 23:44:59 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[05-Apr-2015 23:46:19 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[05-Apr-2015 23:46:19 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:05:25 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:05:25 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:08:56 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:08:56 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:11:33 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:11:33 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:48:01 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:48:01 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:51:37 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:51:37 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:52:58 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:52:58 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 00:59:32 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 00:59:32 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 01:00:26 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 01:00:26 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 01:01:57 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 01:01:57 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 01:17:36 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 01:17:36 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 01:21:53 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 01:21:53 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[06-Apr-2015 01:25:27 America/Denver] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home3/thinker6/public_html/ShellPage/thfl-admin/config.php on line 4
+[06-Apr-2015 01:25:27 America/Denver] PHP Warning:  Call to private Database::__destruct() from context '' during shutdown ignored in Unknown on line 0
+[20-May-2015 23:25:23 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/database_class.php on line 50
+[20-May-2015 23:26:53 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/database_class.php on line 50
+[21-May-2015 02:53:44 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 02:53:44 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 02:53:44 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 05:07:41 America/Denver] PHP Notice:  Undefined index: activity-file in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 417
+[21-May-2015 05:07:42 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 05:07:42 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 05:07:42 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 05:54:37 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 05:54:37 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 05:54:37 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 05:56:53 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 05:56:53 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 05:56:53 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 22:10:32 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 22:10:32 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 22:10:32 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 23:17:49 America/Denver] PHP Notice:  Undefined index: activity-file in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 417
+[21-May-2015 23:17:50 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 23:17:50 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 23:17:50 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 23:18:17 America/Denver] PHP Notice:  Undefined index: activity-file in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 417
+[21-May-2015 23:18:17 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 23:18:17 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 23:18:17 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 23:18:23 America/Denver] PHP Notice:  Undefined index: activity-file in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 417
+[21-May-2015 23:18:23 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 23:18:23 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 23:18:23 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[21-May-2015 23:22:55 America/Denver] PHP Notice:  Undefined index: activity-file in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 417
+[21-May-2015 23:22:56 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[21-May-2015 23:22:56 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[21-May-2015 23:22:56 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 00:48:14 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 00:48:14 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 00:48:14 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:12:18 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:12:18 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:12:18 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:15:22 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:15:22 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:15:22 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:16:41 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:16:41 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:16:41 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:20:15 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:20:15 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:20:15 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:23:45 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:23:45 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:23:45 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:25:08 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:25:08 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:25:08 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:26:03 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:26:03 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:26:03 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:39:09 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:39:09 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:39:09 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:42:11 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:42:11 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:42:11 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:42:49 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:42:49 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:42:49 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:44:26 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:44:26 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:44:26 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:44:51 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:44:51 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:44:51 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:45:19 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:45:19 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:45:19 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:45:40 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:45:40 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:45:40 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 01:46:01 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 01:46:01 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 01:46:01 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:11:13 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:11:13 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:11:13 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:11:48 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:11:48 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:11:48 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:12:39 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:12:39 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:12:39 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:29:17 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:29:18 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:29:18 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:30:27 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:30:27 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:30:27 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:31:12 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:31:12 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:31:12 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:32:07 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:32:07 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:32:07 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:32:51 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:32:51 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:32:51 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:33:25 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:33:25 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:33:25 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:34:47 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:34:47 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:34:47 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:37:53 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:37:53 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:37:53 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:38:13 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:38:13 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:38:13 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:38:38 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:38:38 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:38:38 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[22-May-2015 03:39:04 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[22-May-2015 03:39:04 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[22-May-2015 03:39:04 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[25-May-2015 03:46:42 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[25-May-2015 03:46:42 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[25-May-2015 03:46:42 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[25-May-2015 03:48:18 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[25-May-2015 03:48:18 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[25-May-2015 03:48:18 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259
+[26-May-2015 05:11:59 America/Denver] PHP Notice:  Undefined index: result_description in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 257
+[26-May-2015 05:12:00 America/Denver] PHP Notice:  Undefined index: result_page_button_text in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 258
+[26-May-2015 05:12:00 America/Denver] PHP Notice:  Undefined index: result_page_button_link in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 259

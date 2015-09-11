@@ -1,0 +1,18 @@
+[21-May-2015 00:12:46 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:12:47 America/Denver] PHP Warning:  rename(2ceb5d8fe9aa14f9eed2e29a8a06c592,1): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:13:44 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:13:44 America/Denver] PHP Warning:  rename(7a04c3c735cf4d7b82efe4d4443bd5e8,2): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:14:37 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:14:38 America/Denver] PHP Warning:  rename(4cbb57ae48282c7d991b55d04100f28a,3): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:15:26 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:15:27 America/Denver] PHP Warning:  rename(d84e3961d2497a2b4a2fd81d75a6eaf0,4): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:16:32 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:16:38 America/Denver] PHP Warning:  rename(833bc0384cc85aa270ad06ccf969a984,5): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:17:04 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:17:04 America/Denver] PHP Warning:  rename(1c4f3025b00df30cac40064613c71aae,6): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:17:27 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:17:28 America/Denver] PHP Warning:  rename(8e7eadf1a27880f122e9d4217f84e4d0,7): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:17:55 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:17:56 America/Denver] PHP Warning:  rename(3c4cc83e36d2c2be7ee3b90dc0599f78,8): Directory not empty in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/functions.php on line 176
+[21-May-2015 00:18:13 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43
+[21-May-2015 00:21:15 America/Denver] PHP Warning:  chdir(): No such file or directory (errno 2) in /home3/thinker6/public_html/clients/Embassy/wordit/thfl-admin/model/quad-image-handler.php on line 43

@@ -1,0 +1,523 @@
+/* -------------- Color Palette  -------------- */
+@body-color:								#00519A;
+@header-h1-color:						none;
+@header-tagline-color:			dark grey;
+@menu-background-color:			#1a1a1a;
+@games-background-color:		#00519A;	//blue
+@login-div-text-color:			#FFFFFF;
+@input-border-color:				#FFCB05;
+@input-background-color:		grey;
+@input-text-color:					black;	//black
+@result-background-color:		#00519A;	//blue
+@result-title-color:				white;
+@user-result-color:					#9BCA20;
+@scores-div-text-color:			black;
+@footer-text-color:					black;		
+@footer-background-color:		grey;		//green
+
+@user-score-div-text-color:							yellow;
+@user-welcome-text-color:								black;
+@user-rank-text-color:									#B9D6F4;
+
+@game-character-box-border:							not-known;
+@game-character-text-color:							black;
+@game-character-box-background-color:		grey;	//grey
+@game-character-border-radius:					15px;
+
+@answerspace-border-color:							#FFCB05;
+@answerspace-background-color:					grey;	//green
+
+@yourword-text-color:										#F0FF10;	//yellowish
+@yourword-text-decoration:							underline;
+
+@instruction-word-text-color:						black;		//white
+@instruction-text-text-color:						#FFFF00;	//yellow
+
+@hint-text-color:												lightgrey;
+@othertext-text-color:									yellow;
+
+@pics-box-background-color: 						white;
+@pics-box-shadow-color:									white;
+@pics-box-border-radius:								10px;
+
+@final-screen-text-color:								white;
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Playball);
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic);
+
+.boxShadow(@type:inset,@h-shadow:0,@v-shadow:0,@blur:0,@spread:10px,@color:#FFFFFF){
+
+  -moz-box-shadow:    @type @h-shadow @v-shadow @blur @spread @color;
+   -webkit-box-shadow: @type @h-shadow @v-shadow @blur @spread @color;
+   box-shadow:         @type @h-shadow @v-shadow @blur @spread @color;
+
+}
+.borderRadius(@radius:10px){
+
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+
+}
+.font-face(){
+	font-family: 'Playball', cursive;
+	font-family: 'Arimo', sans-serif;
+}
+
+body {
+/*
+	  background-color: #f2f2f2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+*/		
+		background-color:@body-color;
+		.font-face();
+}
+
+
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+
+		.font-face();
+}
+
+#headerwrap h3 {
+
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+  font-family: 'EB Garamond', serif;
+  font-style: oblique;
+	
+	.font-face();
+
+}
+
+.menu h1.logo a {
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 20px;
+
+	.font-face();
+
+}
+
+#home-page-company-logo{
+	
+		height:
+		height:64px;;
+		width:128px;
+		
+}
+
+/*
+		MENU SECTION
+*/
+/*	Change Menu Background Color	*/
+.menu-wrap {
+		position: absolute;
+		top: 0;
+		left: 60px;
+		background-color: @menu-background-color;
+		width: 200px;
+		height: 100%;
+}
+
+/*
+		GAME SECTION
+*/
+#games{
+	height:800px;
+	padding-top:2%;
+	padding-bottom:16%;
+	background-color:@games-background-color;
+}
+
+/*
+		LOGIN SECTION
+*/
+/*		NOTE: It will override the changes made in game section above.	*/
+#loginDiv{
+	margin-top:10%;
+}
+#loginDiv h3{
+	color:@login-div-text-color;
+}
+#loginMessage{
+	height:400px;
+	color:@login-div-text-color;
+}
+/*		Login -> All the INPUT Elements(i.e. Textbox, Dropdown, Button) -> Color changes, Border changes, etc....		*/
+input, .butt,.chzn-select {
+	border: 0.2em solid @input-border-color;
+	text-decoration: none;
+	background-color: @input-background-color;
+	padding: 0.3em 0.5em;
+	font-weight: normal;
+	color: @input-text-color;
+	font-size: 1.0em;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+
+
+/*
+		RESULT SECTION
+*/
+#result{
+	height: 99%;
+	padding-top: 0%;
+	padding-bottom: 20%;
+
+	background-color:@result-background-color;
+}
+/*	i.e. Top 10 Score -> Color Change	*/
+.result_title{
+	color:@result-title-color;
+	margin:0;
+	padding:0;
+}
+.scoresDiv  {
+	vertical-align:middle;
+	text-align:center;
+	color:@scores-div-text-color;
+}
+.scoresDiv tr th{
+	font-size:20px;	
+	text-align:center;
+	color:#FFCB05;
+	text-decoration:underline;
+}
+.scoresDiv .userResult{
+	font-weight:bolder;
+	color:@user-result-color;
+	font-size:20px;		
+}
+.scoresDiv td{
+	padding:10px;
+}
+.scores{
+	font-size:20px;
+	padding-right:10%;
+	text-align:right;
+}
+
+
+/*
+		FOOTER SECTION
+*/
+#footer{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	color:@footer-text-color;		
+	font-size:20px;
+	padding-top:10px;
+	background-color:@footer-background-color;
+	height:100%;
+	.font-face();
+}
+
+/*
+		Quadnation Game CSS Changes
+*/
+
+#sortable2 { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	margin-right: 100px; 
+	background: @answerspace-background-color; 
+	padding: 5px; 
+	width: 100%; 
+	vertical-align:middle;
+	border: 2px solid @answerspace-border-color;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-user-select: none; 
+	min-height: 80px;
+}
+
+#sortable1 { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	margin-right: 100px; 
+	padding: 5px; 
+	width: 100%; 
+	/*height: 60px;*/
+}
+
+
+#sortable1 li, #sortable2 li{
+	font-family: 'Lora', serif;
+	.font-face();
+	display:inline-block;
+	cursor: move; 
+	margin: 4px; 
+	padding: 5px; 
+	font-size: 1.4em;
+	font-weight:bold;
+	width: 50px;
+	background: none; 
+	background-color: @game-character-box-background-color; 
+	text-align: center;
+	.borderRadius(@game-character-border-radius);
+	color:@game-character-text-color;
+
+	}
+
+#sortable1 li:hover, #sortable2 li:hover {
+}
+
+#sortable1 li:active, #sortable2 li:active {
+}
+
+#disWord {
+	color: @yourword-text-color;
+	font-size:1.2em;
+	text-decoration: @yourword-text-decoration;
+}
+#instruction-word{
+	color:	@instruction-word-text-color;
+}	
+#instruction-text{
+	color:@instruction-text-text-color;
+	text-align:left;
+	font-weight:bold;
+	font-size:20px;
+}
+.hint{
+	color:@hint-text-color;
+	font-size:1.2em;
+	.font-face();
+}
+.otherText{
+	color:@othertext-text-color;
+	font-size:1.2em;
+	.font-face();
+}
+
+#pics {
+	text-align: center;
+	background-color: @pics-box-background-color;
+	padding: 1em 0 1.2em 0em;
+	min-height: 180px;	
+	vertical-align: middle;
+	.borderRadius(@pics-box-border-radius);
+	.boxShadow(inset,0,0,0,10px,@pics-box-shadow-color);
+		*behavior: url("../themes/assets/css/boxsizing.htc");
+}
+#pics img {
+	.borderRadius(10px);
+}
+
+
+#user-welcome-text-color{
+	
+	color:@user-welcome-text-color;
+	font-size:1.2em;
+	font-weight:bolder;
+	text-transform: capitalize;
+	.font-face();
+}
+
+#user-high-score{
+	
+	color:@user-welcome-text-color;
+	font-size:1.2em;
+	font-weight:bolder;
+	text-transform: capitalize;
+	.font-face();
+}
+#game-score-bar{
+	width:100%;
+	float:right;
+	font-weight:bolder;
+	.font-face();
+	display:none;
+}
+#final-screen{	
+	padding-top:20%;
+	color: @final-screen-text-color;
+	font-weight:bolder;
+	.font-face();
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+/*	background: url(../img/header-bg.jpg) no-repeat center top;*/
+	margin-top: -10px;
+	padding-top:0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+#headerwrap h1 {
+	margin-top: 10px;
+	color: @header-h1-color;
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#headerwrap .logo {
+	text-align: right;
+	margin-left: 20px;
+	margin-top: 15%;
+}
+#tagline{
+	color:@header-tagline-color;
+	text-decoration:underline;
+	text-decoration-color:white;
+}
+#user-score-div{
+	color:@user-score-div-text-color;
+}
+#user-serial{
+	color: yellow;
+}
+#user-welcome{
+	color:@user-welcome-text-color;
+}
+
+#how-to-play{
+	display:none;
+}
+ #popup { display:none; }
+
+#popup,#popup2,.bMulti{
+	background-color:#fff;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:0 0 25px 5px #999;
+	color:#111;
+	display:none;
+	min-width:450px;
+	padding:25px;
+}
+.button.b-close,.button.bClose{
+	border-radius:7px 7px 7px 7px;
+	box-shadow:none;
+	font:bold 131% sans-serif;
+	padding:0 6px 2px;
+	position:absolute;
+	right:-7px;
+	top:-7px;
+}
+.button{
+	background-color:#2b91af;
+	border-radius:10px;
+	box-shadow:0 2px 3px rgba(0,0,0,0.3);
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	padding:10px 20px;
+	text-align:center;
+	text-decoration:none;
+}
+.button.small{
+	border-radius:15px;
+	float:right;
+	margin:22px 5px 0;
+	padding:6px 15px;
+}
+.button:hover{
+	background-color:#1e1e1e;
+}
+.button>span{
+	font-size:84%;
+}
+.button.b-close,.button.bClose{
+	border-radius:7px 7px 7px 7px;
+	box-shadow:none;
+	font:bold 131% sans-serif;
+	padding:0 6px 2px;
+	position:absolute;
+	right:-7px;
+	top:-7px;
+}
+#user-rank{
+	color: @user-rank-text-color;
+	text-decoration: underline;
+}
+
+
+/*
+		KPMG Begins
+*/
+@trivia-correct-text-color:		#BED9F7;
+@trivia-correct-border-color:	#BED9F7;
+@trivia-wrong-text-color:			#BED9F7;
+@trivia-wrong-border-color:		#BED9F7;
+
+.correctTrivia{
+	color:@trivia-correct-text-color;
+	border:1px solid @trivia-correct-border-color;
+	border-radius:10px;
+}
+
+.wrongTrivia{
+	color:@trivia-wrong-text-color;
+	border:1px solid @trivia-correct-border-color;
+	border-radius:10px;
+}
+
+#tagline{
+	color:black;
+	font-weight:900;
+}
+#tagline:hover{
+	color:#F94F11;
+}
+
+
+
+ #validation_popup { display:none; }
+
+#validation_popup,#validation_popup,.bMulti{
+	background-color:#fff;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:0 0 25px 5px #999;
+	color:#111;
+	display:none;
+	min-width:450px;
+	padding:25px;
+}
+

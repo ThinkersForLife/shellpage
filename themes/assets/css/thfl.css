@@ -1,0 +1,156 @@
+body {
+
+	  background-color: #f2f2f2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+	
+/*		.font-face();		*/
+}
+
+
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+
+/*		.font-face();		*/
+}
+
+#headerwrap h3 {
+
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+  font-family: 'EB Garamond', serif;
+  font-style: oblique;
+	
+/*		.font-face();		*/
+
+}
+
+.menu h1.logo a {
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 20px;
+
+/*		.font-face();		*/
+
+}
+
+
+/*
+		MENU SECTION
+*/
+/*	Change Menu Background Color	*/
+.menu-wrap {
+		position: absolute;
+		top: 0;
+		left: 60px;
+		background-color: #1a1a1a;
+		width: 200px;
+		height: 100%;
+}
+
+/*
+		GAME SECTION
+*/
+#games{
+	padding-top:2%;padding-bottom:6%;
+	background-color:#1a1a1a;
+}
+
+/*
+		LOGIN SECTION
+*/
+/*		NOTE: It will override the changes made in game section above.	*/
+#loginDiv{
+	margin-top:10%;
+}
+#loginDiv h3{
+	color:#FFFFFF;
+}
+#loginMessage{
+	height:400px;
+	color:#FFFFFF;
+}
+/*		Login -> All the INPUT Elements(i.e. Textbox, Dropdown, Button) -> Color changes, Border changes, etc....		*/
+input, .butt,.chzn-select {
+	border: 0.2em solid #FFCB05;
+	text-decoration: none;
+	background-color: #572871;
+	padding: 0.3em 0.5em;
+	font-weight: normal;
+	color: pink;
+	font-size: 1.0em;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+
+
+/*
+		RESULT SECTION
+*/
+#result{
+	height:800px;
+	background-color:#1a1a1a;
+}
+/*	i.e. Top 10 Score -> Color Change	*/
+.result_title{
+	color:white;
+	margin:0;
+	padding:0;
+}
+.scoresDiv  {
+	vertical-align:middle;
+	text-align:center;
+	margin-left:45%;
+	padding-bottom:10%;
+	color:white;
+}
+.scoresDiv tr th{
+	font-size:20px;	
+	
+}
+.scoresDiv .userResult{
+	font-weight:bolder;
+	color:#9BCA20;
+	font-size:20px;		
+}
+.scoresDiv td{
+	padding:5px;
+}
+.scores{
+	font-size:20px;
+	padding-right:10%;
+	text-align:right;
+}
+
+
+/*
+		FOOTER SECTION
+*/
+#footer{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	color:white;		
+	font-size:20px;
+	padding-top:10px;
+	background-color:#494949;
+	height:100%;
+}

@@ -1,0 +1,28 @@
+
+.boxShadow(@type:inset,@h-shadow:0,@v-shadow:0,@blur:0,@spread:10px,@color:#FFFFFF){
+
+  -moz-box-shadow:    @type @h-shadow @v-shadow @blur @spread @color;
+   -webkit-box-shadow: @type @h-shadow @v-shadow @blur @spread @color;
+   box-shadow:         @type @h-shadow @v-shadow @blur @spread @color;
+
+}
+
+.gradient(@color1:white,@color2:black){
+	
+    background: -webkit-linear-gradient(@color1, @color2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(@color1, @color2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(@color1, @color2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(@color1, @color2); /* Standard syntax (must be last) */
+
+}
+.borderRadius(@radius:10px){
+
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+
+}
+.font-face(){
+	font-family: 'Playball', cursive;
+	font-family: 'Arimo', sans-serif;
+}

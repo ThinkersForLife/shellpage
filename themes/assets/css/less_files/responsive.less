@@ -1,0 +1,73 @@
+
+
+
+@media(max-width: 400px) {
+
+	#popup,#popup2,.bMulti{
+		margin-top :5%;
+		background-color:#fff;
+		border-radius:5px 5px 5px 5px;
+		box-shadow:0 0 25px 5px #999;
+		color:#111;
+		display:none;
+		min-width:200px;
+		padding:15px;
+	}
+
+	#headerwrap h1 {
+		margin-top: 10px;
+		color: @header-h1-color;
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+
+	#home-page-company-logo{	
+	
+		max-width: 100px;
+		max-height: 100px;
+		vertical-align: middle;
+		margin-top: : auto;
+		margin-bottom: auto;
+		padding:10px;
+		
+	}
+
+	#sortable1 li img, #sortable2 li img{
+		height: 100%;		//ASSEMBLY
+		width:	100%; 		//ASSEMBLY
+		.borderRadius(@game-character-border-radius);
+	}
+	#sortable1 li, #sortable2 li{
+		font-family: 'Lora', serif;
+		.font-face();
+		display:inline-block;
+		cursor: move; 
+		margin: 4px; 
+		padding: 5px; 
+		font-size: 1.4em;
+		font-weight:bold;
+		width: 50px;
+		height: 150px;
+		width: 150px;
+		background: none; 
+		background-color: @game-character-box-background-color; 
+		text-align: center;
+		.borderRadius(@game-character-border-radius);
+		color:@game-character-text-color;
+
+		}
+
+		
+		.sortable-number { 
+				width: 25px;float: left;line-height: 1em;text-align: center;font-weight: bold;
+				color:@sortable-number-text-color; background-color:@sortable-number-background-color;
+				.borderRadius(5px); 
+				border: 1px solid @sortable-number-border-color;
+		}
+
+}
+
+
+
+

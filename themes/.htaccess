@@ -1,0 +1,17 @@
+AddType text/x-component .htc
+<Files "config.xml">
+Order Allow,Deny
+Deny from all
+</Files>
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+# prevent access to PHP error log
+<Files error_log>
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>

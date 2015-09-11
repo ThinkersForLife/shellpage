@@ -1,0 +1,98 @@
+body{
+	background-color: #333333;
+	font-size:1.1em;
+}
+#maincontainer,#loginDiv{
+	border-radius: 15px;
+/*	background-color: #038595;*/
+	color: #FFCB05;
+	width:990px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+
+#contentwrapper,#loginDiv{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:1.1em;
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+.listBlock {
+	/*float: left;*/
+	}
+.listBlock2 {
+	/*margin-top:8%;
+	float: left;*/
+	}
+a:visited{color:orange;}
+img{
+	max-width:200px;
+	max-height:200px;
+	vertical-align: middle;
+	margin-top: : auto;
+	margin-bottom: auto;
+}
+
+img:hover {
+	/* width: 50%; */
+}
+
+.text {
+
+	/**/width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+/*	padding-left:7%;*/
+}
+
+
+.ui-state-highlight { 
+margin: 5px; 
+line-height: 2em; 
+}
+.imgbox {
+
+}
+
+#wrapper {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+
+@-webkit-keyframes animate {
+    0% { height: 10%; margin: 45% 45%; }
+    100% { height: 100%; margin: 0% 0%; }
+}
+@-moz-keyframes animate {
+    0% { height: 10%; margin: 45% 45%; }
+    100% { height: 100%; margin: 0% 0%; }
+}
+@-ms-keyframes animate {
+    0% { height: 10%; margin: 45% 45%; }
+    100% { height: 100%; margin: 0% 0%; }
+}
+@-o-keyframes animate {
+    0% { height: 10%; margin: 45% 45%; }
+    100% { height: 100%; margin: 0% 0%; }
+}
+
+#flashGamesDiv{
+/*	margin-left:24%;
+	margin-top:9%;
+	width:800px;
+	margin:auto;
+	text-align:center;
+	*/
+}
+#gameObj{
+}
+
+

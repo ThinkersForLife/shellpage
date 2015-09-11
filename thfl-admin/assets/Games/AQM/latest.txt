@@ -1,0 +1,14 @@
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+passed,50,42,70,0,15:42:26
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+6/29/2015,15:41:28,10,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Vishwanathan Anand,correct,1,7651
+6/29/2015,15:41:31,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,2113
+6/29/2015,15:41:33,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Vijay Amritraj ,wrong,1,1191
+6/29/2015,15:41:54,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,asd,wrong,1,20498
+6/29/2015,15:42:07,10,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,PT Usha,correct,1,12977
+6/29/2015,15:42:23,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,14781
+6/29/2015,15:42:25,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,2084

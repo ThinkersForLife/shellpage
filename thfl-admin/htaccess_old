@@ -1,0 +1,32 @@
+# Use PHP54 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+
+
+
+
+
+
+
+
+# ALLOW USER BY IP
+<Limit GET POST>
+ order deny,allow
+ deny from all
+ #TFL 
+ allow from 122.166.245.134
+ allow from 123.201.149.6
+ allow from 123.201.148.61
+ allow from 123.201.252.125
+ allow from 122.166.208.139
+ allow from 106.51.241.222
+ allow from 219.91.235.144
+ allow from 124.125.231.65
+ allow from 123.201.50.51
+ allow from 123.201.152.159	
+</Limit>
+
+# PREVENT VIEWING OF .HTACCESS
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>

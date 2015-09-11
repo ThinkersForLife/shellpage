@@ -1,0 +1,147 @@
+
+
+
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+passed,50,42,70,0,14:29:52
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+3/3/2015,14:29:20,10,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,dhoni,correct,1,4813
+3/3/2015,14:29:29,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,7984
+3/3/2015,14:29:32,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Leander Paes                                                 ,wrong,1,2689
+3/3/2015,14:29:35,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,2265
+3/3/2015,14:29:43,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Sachin Tendulkar                                        ,wrong,1,7247
+3/3/2015,14:29:49,10,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,pt usha,correct,1,5937
+3/3/2015,14:29:52,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,2367
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+passed,50,42,70,0,14:31:43
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+3/3/2015,14:31:17,10,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,PT usha,correct,1,10400
+3/3/2015,14:31:19,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,2074
+3/3/2015,14:31:25,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Sachin Tendulkar                                        ,wrong,1,5607
+3/3/2015,14:31:30,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,4063
+3/3/2015,14:31:33,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,2283
+3/3/2015,14:31:39,10,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,dhoni,correct,1,5337
+3/3/2015,14:31:43,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Leander Paes                                                 ,wrong,1,3450
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,20,42,70,0,14:32:35
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+3/3/2015,14:32:18,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,3058
+3/3/2015,14:32:21,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,dasd,wrong,1,2143
+3/3/2015,14:32:25,0,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,PT Usha ,wrong,1,3369
+3/3/2015,14:32:28,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Milkha Singh ,wrong,1,2313
+3/3/2015,14:32:30,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,1620
+3/3/2015,14:32:32,0,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,sad,wrong,1,1967
+3/3/2015,14:32:35,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Leander Paes                                                 ,wrong,1,2022
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,40,42,70,0,14:46:01
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+3/3/2015,14:45:38,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,1721
+3/3/2015,14:45:45,10,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Vishwanathan Anand,correct,1,6256
+3/3/2015,14:45:51,10,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,dhoni,correct,1,5466
+3/3/2015,14:45:53,0,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,PT Usha ,wrong,1,2200
+3/3/2015,14:45:56,0,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,sas,wrong,1,1856
+3/3/2015,14:45:58,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,1925
+3/3/2015,14:46:01,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Leander Paes                                                 ,wrong,1,1984
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,40,42,70,0,14:48:32
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+3/3/2015,14:47:57,10,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,pt usha,correct,1,6295
+3/3/2015,14:48:04,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,6845
+3/3/2015,14:48:07,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,1716
+3/3/2015,14:48:24,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Sachin Tendulkar                                        ,wrong,1,17230
+3/3/2015,14:48:28,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,xfdsdg,wrong,1,2656
+3/3/2015,14:48:30,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Leander Paes                                                 ,wrong,1,1544
+3/3/2015,14:48:32,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,1737
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,0,42,70,0,15:57:12
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,20,42,70,0,15:37:53
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+6/29/2015,15:37:43,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,asdasd,wrong,1,2790
+6/29/2015,15:37:45,0,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,asdasd,wrong,1,1403
+6/29/2015,15:37:47,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,1205
+6/29/2015,15:37:49,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,986
+6/29/2015,15:37:50,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Milkha Singh ,wrong,1,851
+6/29/2015,15:37:52,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Sania Mirza                                                     ,wrong,1,841
+6/29/2015,15:37:53,0,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Kapil Dev                                                 ,wrong,1,1041
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,40,42,70,0,15:39:04
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+6/29/2015,15:38:41,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,2957
+6/29/2015,15:38:46,10,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Mahesh Bhupathi ,correct,1,4393
+6/29/2015,15:38:49,0,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,asd,wrong,1,2589
+6/29/2015,15:38:52,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,2758
+6/29/2015,15:38:57,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,4815
+6/29/2015,15:39:00,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,asd,wrong,1,1947
+6/29/2015,15:39:04,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Milkha Singh ,wrong,1,3188
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+failed,30,42,70,0,15:41:03
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+6/29/2015,15:39:42,0,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,False,wrong,1,25997
+6/29/2015,15:39:49,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,6443
+6/29/2015,15:40:08,0,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Milkha Singh ,wrong,1,19115
+6/29/2015,15:40:33,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,Sachin Tendulkar,wrong,1,24017
+6/29/2015,15:40:44,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Vijay Amritraj ,wrong,1,10775
+6/29/2015,15:40:53,10,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,PT Usha,correct,1,8364
+6/29/2015,15:41:03,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,9284
+
+ The Indian Sports Quiz
+Status, Raw Score, Passing Score, Max Score, Min Score, Time
+
+passed,50,42,70,0,15:42:26
+
+Date, Time, Score, Interaction ID, Objective Id, Interaction Type, Student Response, Result, Weight, Latency
+
+6/29/2015,15:41:28,10,I67ad0b8c-9092-40e3-865e-e2851665aad2,Question7_1,multiplechoice,Vishwanathan Anand,correct,1,7651
+6/29/2015,15:41:31,10,I360e0415-14c9-438f-8f3a-f0a101af5b3a,Question5_1,multiplechoice,Milkha Singh                                              ,correct,1,2113
+6/29/2015,15:41:33,0,I385cf3ff-2814-4806-b9d5-a7e8c851a5c7,Question8_1,multiplechoice,Vijay Amritraj ,wrong,1,1191
+6/29/2015,15:41:54,0,I19c71c70-f09e-4be3-9abb-10513f65e3e4,Question4_1,fillin,asd,wrong,1,20498
+6/29/2015,15:42:07,10,Ib95af57e-ab19-4ddf-8a76-167f359ef88a,Question3_1,fillin,PT Usha,correct,1,12977
+6/29/2015,15:42:23,10,Iffe2db76-367e-40cc-8c13-27acedc44a4f,Question6_1,multiplechoice,Mohun Bagan                                            ,correct,1,14781
+6/29/2015,15:42:25,10,Id8a1a9f1-64a5-48a6-8f65-a2507b005cac,Question2_1,truefalse,True,correct,1,2084
+

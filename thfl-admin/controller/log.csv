@@ -1,0 +1,7 @@
+DATETIME,ERRORLEVEL,TAG,VALUE,LINE,FILE
+"2015-03-27 04:04:41",INFO,TIP,"This message will be logged in the file log.csv",16,/home3/thinker6/public_html/ShellPage/thfl-admin/model/Logger.php
+"2015-03-27 04:04:41",ERROR,IE,"Connection Established",30,/home3/thinker6/public_html/ShellPage/thfl-admin/model/Logger.php
+"2015-03-27 04:04:41",INFO,TIP,"This message will be logged in the file log.csv",16,/home3/thinker6/public_html/ShellPage/thfl-admin/model/Logger.php
+"2015-03-27 04:04:41",ERROR,IE,"Connection Established",30,/home3/thinker6/public_html/ShellPage/thfl-admin/model/Logger.php
+"2015-03-27 04:05:33",INFO,TIP,"This message will be logged in the file log.csv",16,/home3/thinker6/public_html/ShellPage/thfl-admin/model/Logger.php
+"2015-03-27 04:05:33",ERROR,IE,"Connection Established",30,/home3/thinker6/public_html/ShellPage/thfl-admin/model/Logger.php

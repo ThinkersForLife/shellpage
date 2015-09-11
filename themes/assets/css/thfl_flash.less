@@ -1,0 +1,119 @@
+@import "less_files/variables.less";
+@import "less_files/mixins.less";
+
+@import "less_files/top_section.less";
+@import "less_files/games_section.less";
+@import "less_files/login_section.less";
+@import "less_files/result_section.less";
+@import "less_files/footer_section.less";
+
+@import "less_files/responsive.less";
+
+@import "less_files/other_html_elements.less";
+
+/*	GAMES LESS FILES	*/
+@import "less_files/quadnation.less";
+
+#headerwrap h3 {
+
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+  font-family: 'EB Garamond', serif;
+  font-style: oblique;
+	
+	.font-face();
+
+}
+
+.menu h1.logo a {
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 20px;
+
+	.font-face();
+
+}
+
+#home-page-company-logo{
+	
+max-width: 150px;
+max-height: 150px;
+vertical-align: middle;
+margin-top: : auto;
+margin-bottom: auto;
+padding:10px;
+color:@header-h1-color;
+}
+
+/*
+		MENU SECTION
+*/
+/*	Change Menu Background Color	*/
+.menu-wrap {
+		position: absolute;
+		top: 0;
+		left: 60px;
+		background-color: @menu-background-color;
+		width: 200px;
+		height: 100%;
+}
+
+
+
+
+ #popup { display:none; }
+
+#popup,#popup2,.bMulti{
+	background-color:#fff;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:0 0 25px 5px #999;
+	color:#111;
+	display:none;
+	min-width:450px;
+	padding:25px;
+}
+
+
+.sortable-number { 
+		width: 25px;float: left;line-height: 1em;text-align: center;font-weight: bold;
+		color:@sortable-number-text-color; background-color:@sortable-number-background-color;
+		border: 1px solid @sortable-number-border-color;
+		.borderRadius(5px); 
+}
+
+
+#pics {
+	text-align: center;
+	background-color: @pics-box-background-color;
+	padding: 1em 0 1.2em 0em;
+	min-height: 180px;	
+	vertical-align: middle;
+	width:100%;
+	.borderRadius(@pics-box-border-radius);
+	.boxShadow(inset,0,0,0,10px,@pics-box-shadow-color);
+		*behavior: url("../themes/assets/css/boxsizing.htc");
+}
+#pics img {
+	.borderRadius(10px);
+}
+
+#what-to-do-word{
+	color:white;
+	text-decoration:none;
+	font-size:30px;
+}
+a{
+ -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}

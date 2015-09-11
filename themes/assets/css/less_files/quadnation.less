@@ -1,0 +1,136 @@
+
+
+/*
+		Quadnation Game CSS Changes
+*/
+
+#sortable2 { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	margin-right: 100px; 
+	background: @answerspace-background-color; 
+	padding: 5px; 
+	width: 100%; 
+	vertical-align:middle;
+	border: 2px solid @answerspace-border-color;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-user-select: none; 
+	min-height: 80px;
+}
+
+#sortable1 { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	margin-right: 100px; 
+	background: @answerspace-background-color; 
+	padding: 5px; 
+	width: 100%; 
+	vertical-align:middle;
+	border: 2px solid @answerspace-border-color;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-user-select: none; 
+	min-height: 80px;
+	list-style-type: none; 
+	background: @answerspace-background-color; 
+	margin: 0;
+	padding: 0;
+	margin-right: 100px; 
+	padding: 5px; 
+	width: 100%; 
+	/*height: 60px;*/
+}
+
+
+#sortable1 li, #sortable2 li{
+	font-family: 'Lora', serif;
+	.font-face();
+	display:inline-block;
+	cursor: move; 
+	margin: 4px; 
+	padding: 5px; 
+	font-size: 1.4em;
+	font-weight:bold;
+	width: 50px;
+	height: 200px;
+	width: 200px;
+	background: none; 
+	background-color: @game-character-box-background-color; 
+	text-align: center;
+	.borderRadius(@game-character-border-radius);
+	color:@game-character-text-color;
+
+	}
+#sortable1 li img, #sortable2 li img{
+	height: 100%;		//ASSEMBLY
+	width:	100%; 		//ASSEMBLY
+	.borderRadius(@game-character-border-radius);
+}
+#sortable1 li:hover, #sortable2 li:hover {
+}
+
+#sortable1 li:active, #sortable2 li:active {
+}
+
+#disWord {
+	color: @yourword-text-color;
+	font-size:1.2em;
+	text-decoration: @yourword-text-decoration;
+}
+#instruction-word{
+	padding-left:1%;
+	color:	@instruction-word-text-color;
+}	
+#instruction-text{
+	color:@instruction-text-text-color;
+	text-align:left;
+	font-weight:bold;
+	font-size:20px;
+}
+.hint{
+	color:@hint-text-color;
+	font-size:1.2em;
+	.font-face();
+}
+.otherText{
+	color:@othertext-text-color;
+	font-size:1.2em;
+	.font-face();
+}
+
+#user-welcome-text-color{
+	
+	color:@user-welcome-text-color;
+	font-size:1.2em;
+	font-weight:bolder;
+	text-transform: capitalize;
+	.font-face();
+}
+
+#user-high-score{
+	
+	color:@user-welcome-text-color;
+	font-size:1.2em;
+	font-weight:bolder;
+	text-transform: capitalize;
+	.font-face();
+}
+#game-score-bar{
+	width:100%;
+	float:right;
+	font-weight:bolder;
+	.font-face();
+	display:none;
+}
+#final-screen{	
+	padding-top:20%;
+	color: @final-screen-text-color;
+	font-weight:bolder;
+	.font-face();
+}
+

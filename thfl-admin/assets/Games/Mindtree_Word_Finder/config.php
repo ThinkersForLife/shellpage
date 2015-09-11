@@ -1,0 +1,28 @@
+<?php
+$shell_result_fields=array(
+		"slno"					=>		false,
+		"edate"					=>		false,
+		"name"					=>		true,
+		"email"					=>		true,
+		"companyName"		=>		true,
+		"location"			=>		true,
+		"quizName"			=>		true,
+		"userAns"				=>		false,
+		"correctAns"		=>		false,
+		"status"				=>		false,
+		"rawScr"				=>		true,
+		"gameTime"			=>		true,
+		"passScr"				=>		false,
+		"maxScr"				=>		false,
+		"minScr"				=>		false,
+		"totalScr"			=>		false,
+		"totalGameTime"	=>		false,
+		"jic"						=>		false,
+		"hashtag"				=>		false,
+		"field1"				=>		false,
+		"field2"				=>		false,
+		"field3"				=>		false,
+		"field4"				=>		true,
+		"field5"				=>		false,
+		"field6"				=>		false
+);

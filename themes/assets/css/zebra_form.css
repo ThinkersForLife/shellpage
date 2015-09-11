@@ -1,0 +1,23 @@
+.exmaple-form{
+	margin:0  auto;
+	height:100%;
+	width:340px;
+	margin-top:10%;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:3%;
+	border:2px solid #303740;
+	border-radius: 15px;
+	background: transparent;
+}
+.credits{
+	color:#3E78FD;
+	margin-left:1%;				
+}
+.credits a{
+	text-decoration:none;
+	color:#C80006;
+}
+.credits a:hover{
+	font-weight:bold;
+}

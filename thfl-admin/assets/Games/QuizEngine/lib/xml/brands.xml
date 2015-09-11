@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+    <events>
+		<event id="btnover">
+			<rollover>
+				<css name="btnOverCss">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="btnOutCss">this</css>
+			</rollout>
+		</event>
+
+		<event id="optionover">
+			<rollover>
+				<css name="optionOverCss">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="optionOutCss">this</css>
+			</rollout>
+		</event>
+		
+		<event id="selectandsubmit">
+			<click>
+				<css name="optionOverCss">this</css>
+				<function name="select">this</function>
+				<function name="submit">this</function>
+			</click>
+		</event>
+
+		<event id="select">
+			<click>
+				<css name="optionOverCss">this</css>
+				<function name="select">this</function>
+			</click>
+		</event>
+
+		<event id="submit">
+			<click>
+				<function name="submit">this</function>
+			</click>
+		</event>
+
+		<event id="reset">
+			<click>
+				<function name="reset">this</function>
+			</click>
+		</event>
+		
+        <event id="begin">
+            <click>
+                <anim type="remove" animtime="0" oncomplete="0">openingText</anim>
+                <function name="begin">this</function>
+            </click>
+        </event>
+
+        <event id="loadNextQuestion">
+            <click>
+                <function name="loadNextQuestion">this</function>
+            </click>
+        </event>
+		
+		<event id="restart">
+            <click>
+                <function name="restart">this</function>
+            </click>
+        </event>
+
+        <event id="showq1bg">
+            <click>
+                <anim type="show" animtime="2" oncomplete="0">q1bg</anim>
+            </click>
+        </event>
+
+         <event id="hidepassbg">
+            <click>
+            	<anim type="hide" animtime="2" oncomplete="0">passbg</anim>
+            </click>
+        </event>
+
+        <event id="showpassbg">
+            <click>
+                <anim type="show" animtime="5" oncomplete="0">passbg</anim>
+            </click>
+        </event>
+
+        <event id="hidefailbg">
+            <click>
+            	<anim type="hide" animtime="2" oncomplete="0">failbg</anim>
+            </click>
+        </event>
+
+        <event id="showfailbg">
+            <click>
+                <anim type="show" animtime="2" oncomplete="0">failbg</anim>
+            </click>
+        </event>
+    </events>    
+
+    <box id="failbg" position="absolute" x="0" y="0" width="100%" height="100%" anim="hide" class="failbg" />
+    <box id="orangebg" position="absolute" x="0" y="0" width="100%" height="100%" anim="hide" class="orangebg" />
+
+
+    <!--responsive timer-->
+    <!--2 column layout, timer on the right, moves to top center on phones-->
+    <box id="timerRow" position="absolute" x="0" y="0" anim="none" animtime="0.5" animdelay="1" class="col-md-10 col-md-offset-1">
+    	<box id="timerCol1" position="relative" class="col-md-6" />
+    	<box id="timerContainer" position="relative" class="col-md-6" />
+    </box>
+
+    <!--opening text-->
+    <box id="openingText" position="relative" anim="left" animtime="0.5" animdelay="1" class="col-md-10 col-md-offset-1 vertical-align" z-index="3">
+
+    	<text id="title" position="relative" margin-top="20" anim="none"><![CDATA[<h1 class="black">Multiple Choice Quiz Engine</h1><p class="p_16_black">Welcome to this short quiz.</p><p class="p_16_black">For each question, select the answer before your time runs out!</p>]]></text>
+
+    	<button id="goBtn" position="relative" height="40" width="100" margin-top="40" margin-bottom="20" anim="none" event="btnover,begin" target="title"><![CDATA[Let's go!]]></button>
+    </box>
+
+    <!--timed quiz-->
+    <custom type="quiz" id="quiz" position="relative" x="0" y="0" class="col-md-10 col-md-offset-1">
+		<settings timer="true" timerx="0" timery="0"/>
+        
+		<!-- question 1 -->
+        <question id="q1" time="15" event="">
+
+    		<box id="col1" position="relative" class="col-md-6" />
+    		<box id="col2" position="relative" class="col-md-6" />
+
+    		<text id="question1" position="relative" target="col1" x="0" margin-top="150" margin-bottom="40" anim="left" animtime="0.5"><![CDATA[<p class="p_24">Hindustan lever’s iconic brand Liril got famous due to the Liril girl. The famous ad man behind this 40 year old brand strategy is</p>]]></text>
+			
+			<!--option 1 -->
+			<option correct="false">
+				<text id="option1_1" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.5" event="optionover,selectandsubmit" class="optionBox"><![CDATA[<p class="p_16 white cent">Piyush Pandey </p>]]></text>
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<text id="option1_2" position="relative" target="col1" x="match" width="100%" margin-bottom="40" anim="show" animtime="0.5" animdelay="0.6" event="optionover,selectandsubmit" class="optionBox" float="left"><![CDATA[<p class="p_16 white cent">Alyque Padamsee</p>]]></text>
+			</option>
+			<!--/options -->
+			
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+
+				<box id="fb" position="relative" target="col2" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_99519107.jpg]]></image>
+
+					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Correct!</p><p>The Liril ads ran with a girl enjoying the lime freshness under a waterfall, to a really catchy tune. The Liril girl has been played by several people including Karen Lunel, Preity Zinta and Deepika Padukone. This is the first instance of an Indian ad cashing in on a state of mind (lime freshness from a shower), more than the product specifications. </p>]]></text>
+			
+					<button id="nextQBtn" position="relative" width="150" margin-bottom="10" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">	
+				<box id="fb" position="relative" target="col2" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="failimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://image.shutterstock.com/display_pic_with_logo/180313/214059559/stock-photo-school-boy-wearing-a-dunce-cap-against-a-blackboard-with-incorrect-sums-and-must-try-harder-note-214059559.jpg]]></image>
+
+					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Nope!</p><p>The Liril ads ran with a girl enjoying the lime freshness under a waterfall, to a really catchy tune. The Liril girl has been played by several people including Karen Lunel, Preity Zinta and Deepika Padukone. This is the first instance of an Indian ad cashing in on a state of mind (lime freshness from a shower), more than the product specifications. </p>]]></text>
+			
+					<button id="nextQBtn" position="relative" width="150" margin-bottom="10" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+		</question>
+
+		<!-- question 2 -->
+        <question id="q2" time="15" event="">
+
+    		<box id="col1" position="relative" class="col-md-6" />
+    		<box id="col2" position="relative" class="col-md-6" />
+
+    		<text id="question2" position="relative" target="col1" x="0" margin-top="150" margin-bottom="40" anim="left" animtime="0.5"><![CDATA[<p class="p_24">Nike Inc.’s original name at the time of starting their business was:</p>]]></text>
+			
+			<!--option 1 -->
+			<option correct="false">
+				<text id="option2_1" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.5" event="optionover,selectandsubmit" class="optionBox"><![CDATA[<p class="p_16 white">Dimension 6</p>]]></text>
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<text id="option2_2" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.6" event="optionover,selectandsubmit" class="optionBox"><![CDATA[<p class="p_16 white">Ny-kee </p>]]></text>
+			</option>
+			
+			<!--option 3 -->
+			<option correct="true">
+				<text id="option2_3" position="relative" target="col1" x="match" width="100%" margin-bottom="40" anim="show" animtime="0.5" animdelay="0.7" event="optionover,selectandsubmit" class="optionBox" float="left"><![CDATA[<p class="p_16 white">Blue Ribbon Sports</p>]]></text>
+			</option>
+			<!--/options -->
+			
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/nike.jpg]]></image>
+
+					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Correct!</p><p>Nike started as <strong>Blue Ribbon Sports</strong> in 1964, then changed the name to the Greek goddess of victory, Nike (idea by Nike’s first employee, Jeff Johnson). The company was founded by a track coach, Bill Bowerman, with $1,200 in the bank</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="failimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://image.shutterstock.com/display_pic_with_logo/1734793/159590381/stock-photo-no-159590381.jpg]]></image>
+
+					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Nope</p><p>Nike started as <strong>Blue Ribbon Sports</strong> in 1964, then changed the name to the Greek goddess of victory, Nike (idea by Nike’s first employee, Jeff Johnson). The company was founded by a track coach, Bill Bowerman, with $1,200 in the bank</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+		</question>
+
+		<!-- question 3 -->
+        <question id="q3" time="15" event="">
+
+    		<box id="col1" position="relative" class="col-md-6" />
+    		<box id="col2" position="relative" class="col-md-6" />
+
+    		<text id="question3" position="relative" target="col1" x="0" margin-top="150" margin-bottom="40" anim="left" animtime="0.5"><![CDATA[<p class="p_24">Which of these facts are right about the Amul ads: </p>]]></text>
+			
+			<!--option 1 -->
+			<option correct="true">
+				<text id="option3_1" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.5" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Weekly hoardings </p>]]></text>
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<text id="option3_2" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.6" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">She is called the Utterly Butterly girl.</p>]]></text>
+			</option>
+			
+			<!--option 3 -->
+			<option correct="false">
+				<text id="option3_3" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.7" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">The first ad ran in 1945.</p>]]></text>
+			</option>
+			<!--option 4 -->
+			<option correct="true">
+				<text id="option3_4" position="relative" target="col1" x="match" width="100%" margin-bottom="20" anim="show" animtime="0.5" animdelay="0.8" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">The first hoarding had the Amul girl riding a horse.</p>]]></text>
+			</option>
+			<!--/options -->
+
+			<button id="submitBtn" position="relative" target="col1" x="match" float="left" width="100" anim="disabled" animtime="0.3" animdelay="0.7" event="btnover,submit"><![CDATA[<p class="genericBtn">Confirm</p>]]></button>
+			<button id="resetBtn" position="relative" target="col1" x="match" float="left" margin-left="10" margin-bottom="40" width="100" anim="disabled" animtime="0.3" animdelay="0.7" event="btnover,reset"><![CDATA[<p class="genericBtn">Reset</p>]]></button>
+			
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_276347294.jpg]]></image>
+
+					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Well done!</p><p>You selected all the correct answers.</p> <p><strong>Weekly hoardings:</strong> The ads change every Friday and in a punny fashion, talk about current issues & happenings </p> <p><strong>She is called the Utterly Butterly girl</strong>: this little girl was chosen in response to competitor brand Polson’s butter girl, who was a sexy village belle with a barely there choli</p><p><strong>The first hoarding had the Amul girl riding a horse</strong> it carried the caption, “thoroughbread”)</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+
+			<fb id="partial" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="partialimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_151598030.jpg]]></image>
+
+					<text id="txt11" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Not quite.</p><p>You selected some but not <i>all</i> of the correct options.</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="failimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_306151922.jpg]]></image>
+
+					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Bad luck!</p><p>You didn't select any of the correct options.</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+		</question>
+
+		<!-- question 4 -->
+        <question id="q4" time="15" event="">
+
+    		<box id="col1" position="relative" class="col-md-6" />
+    		<box id="col2" position="relative" class="col-md-6" />
+
+    		<text id="question4" position="relative" target="col1" x="0" margin-top="150" margin-bottom="40" anim="left" animtime="0.5"><![CDATA[<p class="p_24">Which of these are true about Apple </p>]]></text>
+			
+			<!--option 1 -->
+			<option correct="true">
+				<text id="option4_1" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.5" event="optionover,selectandsubmit" class="optionBox"><![CDATA[<p class="p_16 white">Their original logo contained Isaac Newton </p>]]></text>
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<text id="option4_2" position="relative" target="col1" x="match" width="100%" margin-bottom="10" anim="show" animtime="0.5" animdelay="0.6" event="optionover,selectandsubmit" class="optionBox"><![CDATA[<p class="p_16 white">Apple’s retina display is actually manufactured by Samsung </p>]]></text>
+			</option>
+			
+			<!--option 3 -->
+			<option correct="true">
+				<text id="option4_3" position="relative" target="col1" x="match" width="100%" margin-bottom="40" anim="show" animtime="0.5" animdelay="0.7" event="optionover,selectandsubmit" class="optionBox" float="left"><![CDATA[<p class="p_16 white">Macs are called so, in a short form for MacIntosh, the Scottish heritage of one of the early designers at Apple</p>]]></text>
+			</option>
+			<!--/options -->
+			
+			<!-- feedbacks -->
+			<!--option specific feedback, override generic feedback-->
+			<fb id="1" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="fb1image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://guardianlv.com/wp-content/uploads/2013/11/original_apple_logo-307x450.jpg]]></image>
+
+					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">True!</p><p>The original logo had nothing in common with the logo we now recognize – except for one apple.</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+			
+			<fb id="2" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="fb2image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_229291519.jpg]]></image>
+
+					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">True!!</p><p>Difficult to believe, though it is</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+
+			<fb id="3" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
+					<image id="fb3image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_128628542.jpg]]></image>
+
+					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">False $#%8!</p><p>It’s MacIntosh, a variety of Apples </p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="150" anim="none" event="btnover,loadNextQuestion"><![CDATA[Try the next one]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+		</question>
+
+		<!-- question 5 -->
+        <question id="q5" time="60">
+
+    		<box id="col1" position="relative" class="col-md-6" />
+    		<box id="col2" position="relative" class="col-md-6" />
+
+    		<text id="question5" position="relative" target="col1" width="100%" x="0" margin-top="130" margin-bottom="20" anim="left" animtime="0.5"><![CDATA[<p class="p_24">Which of these automobile brands have an animal on their logo?</p>]]></text>
+			
+			<!--option 1 -->
+			<option correct="true">
+				<text id="option5_1" position="relative" target="col1" x="match" width="100%" margin-bottom="5" anim="left" animtime="0.5" animdelay="0.5" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Lamborghini</p>]]></text>
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<text id="option5_2" position="relative" target="col1" x="match" width="100%" margin-bottom="5" anim="left" animtime="0.5" animdelay="0.6" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">KIA</p>]]></text>
+			</option>
+			
+			<!--option 3 -->
+			<option correct="true">
+				<text id="option5_3" position="relative" target="col1" x="match" width="100%" margin-bottom="5" anim="left" animtime="0.5" animdelay="0.7" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Peugeot</p>]]></text>
+			</option>
+
+			<!--option 4 -->
+			<option correct="true">
+				<text id="option5_4" position="relative" target="col1" x="match" width="100%" margin-bottom="5" anim="left" animtime="0.5" animdelay="0.8" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Jaguar</p>]]></text>
+			</option>
+
+			<!--option 5 -->
+			<option correct="false">
+				<text id="option5_5" position="relative" target="col1" x="match" width="100%" margin-bottom="5" anim="left" animtime="0.5" animdelay="0.9" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Honda</p>]]></text>
+			</option>
+
+			<!--option 6 -->
+			<option correct="false">
+				<text id="option5_6" position="relative" target="col1" x="match" width="100%" margin-bottom="5" anim="left" animtime="0.5" animdelay="1" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Tesla</p>]]></text>
+			</option>
+			
+			<!--option 7 -->
+			<option correct="true">
+				<text id="option5_7" position="relative" target="col1" x="match" width="100%" margin-bottom="20" anim="left" animtime="0.5" animdelay="1.1" event="optionover,select" class="optionBox"><![CDATA[<p class="p_16 white">Alfa Romeo</p>]]></text>
+			</option>
+			<!--/options -->
+
+			<button id="submitBtn" position="relative" target="col1" x="match" margin-bottom="40" width="100" anim="disabled" animtime="0.3" animdelay="0.7" event="btnover,submit" float="left"><![CDATA[<p class="genericBtn">Confirm</p>]]></button>
+			
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="100" clear="both" anim="show" animtime="0.5">
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[https://c2.staticflickr.com/2/1314/4605316972_6fc916cce5.jpg]]></image>
+
+					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">Yes! you got them all right</p><p>you clearly know your automobiles. Well done!</p>]]></text>
+
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="230" anim="none" event="btnover,loadNextQuestion"><![CDATA[Overall, how did I do?]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+			
+			<fb id="partial" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="100" clear="both" anim="show" animtime="0.5">
+					<image id="partialimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_71509048.jpg]]></image>
+
+					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">You got some but not all.</p><p>You got some right, but there’s still more. Want to get them all right?</p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="230" anim="none" event="btnover,loadNextQuestion"><![CDATA[Overall, how did I do?]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+
+			<fb id="fail" event="">	
+				<box id="fb" position="relative" target="col2" x="0" margin-top="100" clear="both" anim="show" animtime="0.5">
+					<image id="failimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://image.shutterstock.com/display_pic_with_logo/180313/214059559/stock-photo-school-boy-wearing-a-dunce-cap-against-a-blackboard-with-incorrect-sums-and-must-try-harder-note-214059559.jpg]]></image>
+
+					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">Nope!</p><p>You got none right. Learn your animal logos <a href="#" > here!</a></p>]]></text>
+			
+					<button id="nextQBtn" position="relative" margin-bottom="10" width="230" anim="none" event="btnover,loadNextQuestion"><![CDATA[Overall, how did I do?]]></button>
+
+					<text id="bottompad" position="relative" anim="none"><![CDATA[<p>&nbsp;</p>]]></text>
+				</box>
+			</fb>
+		</question>
+		
+		
+		<!--generic timeout text-->
+		<timeout>
+			<box id="center" position="relative" height="100%"> 
+	            <box id="timeOut" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="1" ease="Bounce.easeOut" class="col-sm-8 col-sm-offset-2 vertical-align border timesupbg">
+
+					<text id="timeoutTxt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none"><![CDATA[<p class="p_42 grey">Times up!</p>]]></text>
+			
+					<button id="startAgainBtn" position="relative" x="10" margin-bottom="30" height="40" width="100" anim="none" event="btnover,restart"><![CDATA[Start again]]></button>
+				</box>
+			</box>
+        </timeout>
+
+
+        <!--score screen-->
+        <score masteryscore="50">
+           <fb id="pass" event="">
+            	<box id="center" position="relative" height="100%">
+	            	<box id="passTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" class="col-sm-8 col-sm-offset-2 vertical-align border passbg">
+						
+						<text id="pass_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
+						<![CDATA[<p class="p_30 black glow">CONGRATULATIONS!</p><p class="p_24 green glow">You scored [score]%</p>]]></text>
+						
+						<button id="goBtn" position="relative" x="10" margin-bottom="30" height="40" width="140" anim="none" event="btnover,restart,hidepassbg"><![CDATA[Play again?]]></button>
+	                </box>
+                </box>
+            </fb>
+            
+            <fb id="fail" event="">
+  				<box id="center" position="relative" height="100%">
+	            	<box id="failTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" class="col-sm-8 col-sm-offset-2 vertical-align border failbg">
+
+	                    <text id="fail_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none"><![CDATA[<p class="p_32 black glow">Bad luck! You scored [score]%</p><p class="p_24 red glow">Why not have another go? </p>]]></text>
+	                        
+						<button id="goBtn" position="relative" x="10" margin-bottom="30" height="40" width="120" anim="none" animtime="0.5" event="btnover,restart,hidefailbg"><![CDATA[Start again]]></button>
+	                </box> 
+                </box> 
+            </fb>
+        </score>
+
+    </custom>
+
+</data>
+

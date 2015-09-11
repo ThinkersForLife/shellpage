@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html> <!--html manifest="Puzzle.manifest"--> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" >
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" >
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="appsfuel_code" content="03ddcc79b69b174"/>
+		<link rel="stylesheet" href="Scripts/jquery.mobile-1.2.0.min.css" />
+		<link rel='stylesheet' href='Scripts/swipe.css' />
+		<style>canvas {border: 0px;margin:0;padding:0;};</style>
+		<style> .ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {display: block; padding: 0.9em 75px 0.9em 15px;}
+					div.ui-slider-switch {position: absolute; right: 0; width: 20%;} </style>
+		<link rel="apple-touch-icon" type="image/x-icon" href="Images/apple-touch-icon-57x57.png" >
+		<link rel="apple-touch-icon" sizes="72x72" href="Images/apple-touch-icon-72x72.png" >
+		<link rel="apple-touch-icon" sizes="114x114" href="Images/apple-touch-icon-114x114.png" >
+		<link rel="apple-touch-startup-image" href="Images/apple-touch-startup-image-320x460.png" >
+		<link rel="apple-touch-startup-image" sizes="768x1004" href="Images/apple-touch-startup-image-768x1004.png" >
+		<link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" >
+		<title>grrd's Puzzle</title> 
+	</head>
+
+	<body> 
+		<div data-role="page" id="title" data-theme="a">
+
+			<div data-role="content">
+
+				<div id='image_slider' class='swipe' style="width:100%;">
+					<div>
+
+						<div style='display:block;text-align:center;'>
+							<fieldset data-role="controlgroup" data-type="horizontal" style="width:100%;">
+								<input type="radio" name="image-set-1" id="image-set-1-1" value="1" checked="checked"/>
+										<label id="radio1-1" for="image-set-1-1"><img id="image1-1" style="width:100%;" alt="" src="Images/europe/image-set-1/sujet3.jpg"/></label>
+							</fieldset>
+						</div>
+
+					</div>
+				</div><!--		END image_slider	-->
+			
+				<!--			Create Puzzle Button Group		-->
+				<div data-role="controlgroup" data-type="horizontal" style="width:100%;">
+					<!--<a id="bteasy" href="#" onclick="easy_click(); return false;" data-role="button" data-mini="true"><img src="Images/easy.png" alt="Easy" style="padding:1px;height: 60px;"/></a>
+					<a id="btmed" href="#" onclick="medium_click(); return false;" data-role="button" data-mini="true"><img src="Images/medium.png" alt="Medium" style="padding:1px;height: 60px;"/></a>
+					<a id="bthard" href="#" onclick="hard_click(); return false;" data-role="button" data-mini="true"><img src="Images/hard.png" alt="Hard" style="padding:1px;height: 60px;"/></a>-->
+					<a id="bteasy" href="#" onclick="easy_click(); return false;" data-role="button" data-mini="true"><img src="Images/easy.png" alt="Easy" style="padding:1px;height: 60px;"/></a>
+					<a id="btmed" href="#" onclick="medium_click(); return false;" data-role="button" data-mini="true"><img src="Images/medium.png" alt="Medium" style="padding:1px;height: 60px;"/></a>
+					<a id="bthard" href="#" onclick="hard_click(); return false;" data-role="button" data-mini="true"><img src="Images/hard.png" alt="Hard" style="padding:1px;height: 60px;"/></a>
+
+				</div>
+				<!--			END Create Puzzle Button Group 			-->
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="container" data-theme="a" style="margin:0px;padding:0px;">
+		</div><!-- /page -->
+
+		<div data-role="page" id="popupSettings">
+
+			<div data-role="header" data-theme="a" style="text-align:center;">
+				<img src="Images/title_wide.png" alt="grrd's Puzzle" style="width:50%;margin-top:8px; margin-bottom:6px" /> 
+			</div>
+			<div data-role="content" data-theme="d">
+				<h4 class="ui-title">Choose Theme</h4>
+				<select name="select_theme" id="select_theme">
+					<option value="europe">Europe</option>
+					<option value="asia">Asia</option>
+					<option value="america">America</option>
+				</select>
+				
+				<h4 class="ui-title" id="b_titimageinput">Choose Image</h4>				
+				<input type="file" id="b_imageinput" accept="image/*">
+
+				<h3 class="ui-title">Settings</h3>
+				
+				<div data-role="fieldcontain">
+					<label for="b_sound" style="display:inline;">Play sounds</label>
+					<select name="b_sound" id="b_sound" data-role="slider">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+					</select>
+				</div>
+				<div data-role="fieldcontain">
+					<label for="b_rotate" style="display:inline;">Tap to twist</label>
+					<select name="b_rotate" id="b_rotate" data-role="slider">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+					</select>
+				</div>
+				<div data-role="fieldcontain">
+					<label for="b_backg_image" style="display:inline;">Image in background</label>
+					<select name="b_backg_image" id="b_backg_image" data-role="slider">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+					</select>
+				</div>
+				<div data-role="fieldcontain">
+					 <label for="b_backg_grid" style="display:inline;">Grid in background</label>
+					 <select name="b_backg_grid" id="b_backg_grid" data-role="slider">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+					 </select>
+				</div>
+				<div data-role="fieldcontain">
+					<label for="b_elastic" style="display:inline;">Smooth animations<br></label>
+					<select name="b_elastic" id="b_elastic" data-role="slider">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+					</select>
+				</div>
+				<div data-role="fieldcontain" id="s_shape">
+					<label for="b_shape" style="display:inline;">Use real jigsaw shapes</label>
+					<select name="b_shape" id="b_shape" data-role="slider">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+					</select>
+				</div>
+				<br>
+				<a href="#" data-rel="back" data-role="button" data-theme="c" data-icon="check">OK</a>
+			</div>
+		</div>
+
+		<div data-role="page" id="dummy" style="display:none;">
+			<img id="g_imageObj" alt="" src="about:blank"/>
+		</div>
+
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.mobile-1.2.0.min.js"></script>
+		<script type="text/javascript" src="Scripts/kinetic-v4.3.3.min.js"></script>
+		<script type="text/javascript" src='Scripts/swipe.js'></script>
+		<script type="text/javascript" src='Scripts/binaryajax.js'></script>
+		<script type="text/javascript" src='Scripts/exif.js'></script>
+		<script type="text/javascript" src="Scripts/puzzle.js"></script>
+
+	</body>
+</html>
