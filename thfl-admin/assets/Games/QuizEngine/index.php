@@ -18,6 +18,7 @@ $base_url="http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/
     <script src="<?php echo $base_url.'/';?>lib/js/essemble_core.min.js"></script>
     <script src="<?php echo $base_url.'/';?>lib/js/mcq.js"></script>
     <script src="<?php echo $base_url.'/';?>lib/js/quiz.js"></script>
+    <script src="<?php echo $base_url.'/';?>lib/js/custom.js"></script>
     
     <script>
     var quiz;
