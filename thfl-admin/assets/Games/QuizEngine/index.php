@@ -3,8 +3,6 @@
 //ini_set("display_errors","On");
 $base_url="http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/";
 ?>
-<div id="main-game-container">
-
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     
      <!-- Bootstrap core CSS 
@@ -42,4 +40,3 @@ $base_url="http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/
     });
     
     </script>
-</div>

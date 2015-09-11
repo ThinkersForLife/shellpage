@@ -231,14 +231,14 @@ $demo_games_configuration['footer_title']=$xml->Configuration->FooterTitle;
 						<!--		<h1 style='color:white;' id="rate-activity">Rate the activity</h1> <input id="input-21b" value="4" type="number" class="rating" min=0 max=5 step=0.2 data-size="lg"><br />-->
 
 					<?php } ?>
-
+					<!-- Original -->
 					<div id="contentwrapper" class="col-lg-8 col-lg-offset-2 centered" style='display:none;'>
 					</div>
 	
 	<?php }else{ ?>
 
 				<div id="contentwrapper" style='display:none;' class="col-lg-6 col-lg-offset-3 centered" >
-		
+				
         </div>
 
 			<div id="loginDiv" style='display:none;'>

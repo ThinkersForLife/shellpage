@@ -145,7 +145,7 @@
 			<fb id="pass" event="">	
 
 				<box id="fb" position="relative" target="col2" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_99519107.jpg]]></image>
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_99519107.jpg]]></image>
 
 					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Correct!</p><p>The Liril ads ran with a girl enjoying the lime freshness under a waterfall, to a really catchy tune. The Liril girl has been played by several people including Karen Lunel, Preity Zinta and Deepika Padukone. This is the first instance of an Indian ad cashing in on a state of mind (lime freshness from a shower), more than the product specifications. </p>]]></text>
 			
@@ -195,7 +195,7 @@
 			<!-- feedbacks -->
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/nike.jpg]]></image>
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/nike.jpg]]></image>
 
 					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Correct!</p><p>Nike started as <strong>Blue Ribbon Sports</strong> in 1964, then changed the name to the Greek goddess of victory, Nike (idea by Nike’s first employee, Jeff Johnson). The company was founded by a track coach, Bill Bowerman, with $1,200 in the bank</p>]]></text>
 			
@@ -252,7 +252,7 @@
 			<!-- feedbacks -->
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_276347294.jpg]]></image>
+					<image id="passimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_276347294.jpg]]></image>
 
 					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Well done!</p><p>You selected all the correct answers.</p> <p><strong>Weekly hoardings:</strong> The ads change every Friday and in a punny fashion, talk about current issues & happenings </p> <p><strong>She is called the Utterly Butterly girl</strong>: this little girl was chosen in response to competitor brand Polson’s butter girl, who was a sexy village belle with a barely there choli</p><p><strong>The first hoarding had the Amul girl riding a horse</strong> it carried the caption, “thoroughbread”)</p>]]></text>
 			
@@ -264,7 +264,7 @@
 
 			<fb id="partial" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="partialimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_151598030.jpg]]></image>
+					<image id="partialimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_151598030.jpg]]></image>
 
 					<text id="txt11" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Not quite.</p><p>You selected some but not <i>all</i> of the correct options.</p>]]></text>
 			
@@ -276,7 +276,7 @@
 			
 			<fb id="fail" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="failimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_306151922.jpg]]></image>
+					<image id="failimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_306151922.jpg]]></image>
 
 					<text id="txt1" position="relative" anim="none" margin-bottom="30"><![CDATA[<p class="p_24">Bad luck!</p><p>You didn't select any of the correct options.</p>]]></text>
 			
@@ -327,7 +327,7 @@
 			
 			<fb id="2" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="fb2image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_229291519.jpg]]></image>
+					<image id="fb2image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_229291519.jpg]]></image>
 
 					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">True!!</p><p>Difficult to believe, though it is</p>]]></text>
 			
@@ -339,7 +339,7 @@
 
 			<fb id="3" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="150" clear="both" anim="show" animtime="0.5">
-					<image id="fb3image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_128628542.jpg]]></image>
+					<image id="fb3image" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_128628542.jpg]]></image>
 
 					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">False $#%8!</p><p>It’s MacIntosh, a variety of Apples </p>]]></text>
 			
@@ -411,7 +411,7 @@
 			
 			<fb id="partial" event="">	
 				<box id="fb" position="relative" target="col2" x="0" margin-top="100" clear="both" anim="show" animtime="0.5">
-					<image id="partialimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[http://192.168.1.54/Build/DEV/ShellRedefined/thfl-admin/assets/Games/QuizEngine/lib/assets/NEW/shutterstock_71509048.jpg]]></image>
+					<image id="partialimage" position="relative" x="0" y="0" margin-bottom="30" anim="none" class="img-responsive"><![CDATA[lib/assets/NEW/shutterstock_71509048.jpg]]></image>
 
 					<text id="txt1" position="relative" margin-bottom="30" anim="none"><![CDATA[<p class="p_24">You got some but not all.</p><p>You got some right, but there’s still more. Want to get them all right?</p>]]></text>
 			

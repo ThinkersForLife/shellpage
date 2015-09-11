@@ -125,16 +125,21 @@ img{display:block;} /* remove bottom padding */
 }
 
 
-#main-game-container{
-height:100%;background:#ffc746 url("../assets/bg_nasa.jpg") no-repeat center center fixed; 
+#contentwrapper{height:100%;
+min-height:600px;background:#ffc746 url("../assets/bg_nasa.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-font-family: 'Roboto Condensed', sans-serif;background:transparent;color:#4b4b40;font-size:14px;
+}
+#container{font-family: 'Roboto Condensed', sans-serif;background:transparent;color:#4b4b40;font-size:14px;
 -webkit-animation-delay: 0.1s;
 -webkit-animation-name: fontfix;
 -webkit-animation-duration: 0.1s;
 -webkit-animation-iteration-count: 1;
 -webkit-animation-timing-function: linear;
+}
+
+#openingText{
+	text-align:left;
 }
